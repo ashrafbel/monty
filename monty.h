@@ -50,6 +50,7 @@ void h_pint_f(stack_t **SK, unsigned int ll_num);
 void h_pop_fun(stack_t **SK, unsigned int ll_num);
 void H_swap_FUN(stack_t **SK, unsigned int ll_num);
 void FUNadd(stack_t **SK, unsigned int ll_num);
+void FUNnop(stack_t **SK, unsigned int ll_num);
 
 
 
