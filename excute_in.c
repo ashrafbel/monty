@@ -10,6 +10,7 @@ void executinstruction(char *o_p, stack_t **SK, unsigned int ll_num)
 instruction_t instructions[] = {
 {"push", H_push_f},
 {"pall", h_pall_fun},
+{"pint", h_pint_f},
 {NULL, NULL}
 };
 int I = 0;
