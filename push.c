@@ -13,6 +13,7 @@ char *Ar = strtok(NULL, " \t\n");
 if (Ar == NULL || !validinteger(Ar))
 {
 fprintf(stderr, "L%u: usage: push integer\n", ll_num);
+frsack(SK);
 exit(EXIT_FAILURE);
 }
 V = atoi(Ar);
