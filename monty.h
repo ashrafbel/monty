@@ -42,10 +42,10 @@ FILE *openf(char *Fname);
 void readfileexu(FILE *f, stack_t **sk);
 void H_push_f(stack_t **stack, unsigned int line_number);
 void h_pall_fun(stack_t **stack, unsigned int line_number);
-int is_valid_integer(const char *str);
+int validinteger(const char *S);
 void executinstruction(char *o_p, stack_t **SK, unsigned int ll_num);
 void frsack(stack_t **stack);
-
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 
 
 

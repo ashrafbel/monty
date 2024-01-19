@@ -6,7 +6,7 @@ void H_push_f(stack_t **stack, unsigned int line_number)
     int value;
     stack_t *new_node;
 
-    if (arg == NULL || !is_valid_integer(arg))
+    if (arg == NULL || !validinteger(arg))
     {
         fprintf(stderr, "L%u: usage: push integer\n", line_number);
         exit(EXIT_FAILURE);
