@@ -9,6 +9,7 @@ void h_pint_f(stack_t **SK, unsigned int ll_num)
 if (SK == NULL || *SK == NULL)
 {
 fprintf(stderr, "L%u: can't pint, stack empty\n", ll_num);
+frsack(SK);
 exit(EXIT_FAILURE);
 }
 printf("%d\n", (*SK)->n);
