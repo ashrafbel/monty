@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * swap - two top elemnt in sk swaped
+ * H_swap_FUN - two top elemnt in sk swaped
  * @SK: to the stack
  * @ll_num: Line number
  */

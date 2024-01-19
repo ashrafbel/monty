@@ -13,7 +13,7 @@ instruction_t instructions[] = {
 {"pint", h_pint_f},
 {"pop", h_pop_fun},
 {"swap", H_swap_FUN},
-
+{"add", FUNadd},
 {NULL, NULL}
 };
 int I = 0;
