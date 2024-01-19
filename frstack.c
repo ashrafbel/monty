@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * free_stack - frees a stack.
+ * frsack - frees a stack.
  * @stack: pointer to the stack.
  */
 void frsack(stack_t **stack)

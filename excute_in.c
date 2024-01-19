@@ -1,5 +1,10 @@
 #include "monty.h"
-
+/**
+ * executinstruction - executes a monty bytecode
+ * @o_p: The opcode of the instruction.
+ * @SK: the head of the stack.
+ * @ll_num: Line number
+ */
 void executinstruction(char *o_p, stack_t **SK, unsigned int ll_num)
 {
 instruction_t instructions[] = {
@@ -7,14 +12,13 @@ instruction_t instructions[] = {
 {"pall", h_pall_fun},
 {NULL, NULL}
 };
-
 int I = 0;
 
 while (instructions[I].opcode != NULL)
 {
 if (strcmp(instructions[I].opcode, o_p) == 0)
 {
- instructions[I].f(SK, ll_num);
+instructions[I].f(SK, ll_num);
 return;
 }
 I++;
