@@ -15,6 +15,7 @@ instruction_t instructions[] = {
 {"swap", H_swap_FUN},
 {"add", FUNadd},
 {"nop", FUNnop},
+{"sub", FSUM},
 {NULL, NULL}
 };
 int I = 0;
